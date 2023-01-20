@@ -1,0 +1,48 @@
+* {
+    text-align: center;
+}
+
+/* no inicio da tela, canto superior esquerdo */
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* no final da tela, canto superior direito*/
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* no centro da tela */
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* no inicio, centro e final da tela */
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* no inicio, centro e final da tela com espaço entre elas */
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.one {
+    background-color: yellow;
+    width: 100px;
+}
+
+.two {
+    background-color: blue;
+    width: 100px;
+}
+
+.three {
+    background-color: red;
+    width: 100px;
+}

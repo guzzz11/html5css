@@ -1,0 +1,28 @@
+/*O z-index é utilizado para sobrepor elementos sequencialmente. O exemplo abaixo é com o z-index declarado, sobrepondo o quadrado-2 no caso. Por o seu valor ser maior que os demais ele será o primeiro elemento. */
+div {
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    height: 200px;
+    padding: 20px;
+    position: fixed;
+    width: 200px;
+  }
+  
+  .quadrado-1 {
+    background-color: blueviolet;
+  }
+  
+  .quadrado-2 {
+    background-color: lightcoral;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+  }
+  
+  .quadrado-3 {
+    background-color: lightgreen;
+    left: 100px;
+    top: 100px;
+  }
+
